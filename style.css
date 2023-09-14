@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: url('bg1.jpg') center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    /* Apply blur to the background */
+}
+
+input {
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather {
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Add a semi-transparent white background for the weather display */
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    color: black;
+}
+
+.weather h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
